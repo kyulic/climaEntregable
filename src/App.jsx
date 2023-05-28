@@ -68,7 +68,7 @@ function App() {
           if (clima=="overcast clouds"){setPathRandom(2)}
           if (clima=="few clouds"){setPathRandom(3)} 
           if (clima=="scattered clouds"){setPathRandom(4)}
-          if (clima=="broken clouds" ){setPathRandom(5)} 
+          if (clima=="broken clouds" || "drizzle"){setPathRandom(5)} 
           if (clima=="shower rain"){setPathRandom(6)}
           if (clima=="rain"){setPathRandom(7)} 
           if (clima=="thunderstorm"){setPathRandom(8)}
