@@ -59,19 +59,20 @@ function App() {
         console.log(res.data)
         console.log(res.data.weather[0].description)
         
-          
+          const clima=res.data.weather[0].description
+          // const clima="snow"
           // if (res.data.weather[0].description=='few clouds')
 
           
-          if (res.data.weather[0].description=="clear sky"){setPathRandom(1)} 
-          if (res.data.weather[0].description=="overcast clouds"){setPathRandom(2)}
-          if (res.data.weather[0].description=="few clouds"){setPathRandom(3)} 
-          if (res.data.weather[0].description=="scattered clouds"){setPathRandom(4)}
-          if (res.data.weather[0].description=="broken clouds"){setPathRandom(5)} 
-          if (res.data.weather[0].description=="shower rain"){setPathRandom(6)}
-          if (res.data.weather[0].description=="rain"){setPathRandom(7)} 
-          if (res.data.weather[0].description=="thunderstorm"){setPathRandom(8)}
-          if (res.data.weather[0].description=="snow"){setPathRandom(9)}
+          if (clima=="clear sky"){setPathRandom(1)} 
+          if (clima=="overcast clouds"){setPathRandom(2)}
+          if (clima=="few clouds"){setPathRandom(3)} 
+          if (clima=="scattered clouds"){setPathRandom(4)}
+          if (clima=="broken clouds"){setPathRandom(5)} 
+          if (clima=="shower rain"){setPathRandom(6)}
+          if (clima=="rain"){setPathRandom(7)} 
+          if (clima=="thunderstorm"){setPathRandom(8)}
+          if (clima=="snow"){setPathRandom(9)}
           
           
           
