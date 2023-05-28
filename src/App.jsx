@@ -60,7 +60,7 @@ function App() {
         console.log(res.data.weather[0].description)
         
           const clima=res.data.weather[0].description
-          // const clima="clear sky"
+          // const clima="shower rain"
           // if (res.data.weather[0].description=='few clouds')
 
           
@@ -68,11 +68,12 @@ function App() {
           else if (clima=="overcast clouds"){setPathRandom(2)}
           else if (clima=="few clouds"){setPathRandom(3)} 
           else if (clima=="scattered clouds"){setPathRandom(4)}
-          else if (clima=="broken clouds"){setPathRandom(5)} 
+          else if (clima=="broken clouds"){setPathRandom(4)} 
           else if (clima=="shower rain"){setPathRandom(6)}
-          else if (clima=="rain"){setPathRandom(7)} 
-          else if (clima=="thunderstorm"){setPathRandom(8)}
-          else if (clima=="snow"){setPathRandom(9)}          
+          else if (clima=="rain"){setPathRandom(6)} 
+          else if (clima=="thunderstorm"){setPathRandom(7)}
+          else if (clima=="snow"){setPathRandom(8)} 
+          else if (clima=="	mist"){setPathRandom(9)}             
           else if (clima=="drizzle"){setPathRandom(5)}
           else setPathRandom(10)
           
