@@ -73,6 +73,7 @@ function App() {
           if (clima=="rain"){setPathRandom(7)} 
           if (clima=="thunderstorm"){setPathRandom(8)}
           if (clima=="snow"){setPathRandom(9)}
+          if (clima=="drizzle"){setPathRandom(5)}
           
           
           
