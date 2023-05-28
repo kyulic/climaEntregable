@@ -36,7 +36,7 @@ const WeatherCard = ({weather,temp,arrBackground,setPathRandom}) => {
                 <button className='btn' onClick={handleChangeTemp}>Change to {isCelsius? '°F':' °C'}</button>
              </footer>
 
-             <footer className='repositorio'>Karla Yulieth Caquimbo, <a href=' https://github.com/kyulic/clima'>Repositorio</a></footer>
+             <footer className='repositorio'>Karla Yulieth Caquimbo, <a href='https://github.com/kyulic/climaEntregable'>Repositorio</a></footer>
         
        
 
